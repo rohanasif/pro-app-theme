@@ -26,14 +26,14 @@ nav li {
 }
 
 #first {
-    color: orange;
-    border-bottom: 2px solid orange;
+    color: #FFA500;
+    border-bottom: 2px solid #FFA500;
 }
 
 nav li:hover {
     cursor: pointer;
-    color: orange;
-    border-bottom: 2px solid orange;
+    color: #FFA500;
+    border-bottom: 2px solid #FFA500;
 }
 
 .intro {
