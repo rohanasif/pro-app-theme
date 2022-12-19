@@ -879,3 +879,69 @@ nav li:hover {
     box-sizing: border-box;
     font-size: 45px;
 }
+
+.newsletter {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: #1f1f1f;
+    top: 300px;
+    border-bottom: 1px dotted white;
+}
+
+.newsletter h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.newsletter input {
+    position: relative;
+    height: 10%;
+    width: 25%;
+    left: 470px;
+    top: 70px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.newsletter button {
+    position: relative;
+    height: 57px;
+    width: 5%;
+    left: 465px;
+    top: 75px;
+    background-color: orangered;
+    border: none;
+    font-size: 30px;
+    color: white
+}
+
+.newsletter>h1 {
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-size: 45px;
+    color: white;
+}
+
+.newsletter>p {
+    text-align: center;
+    padding-top: 30px;
+    color: #999;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+footer {
+    padding-bottom: 70px;
+    background-color: #1f1f1f;
+    position: relative;
+    height: 25%;
+    margin-top: 300px;
+    border-top: 1px dotted white;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
