@@ -809,3 +809,73 @@ nav li:hover {
     background-color: #e65100;
     top: 300px
 }
+
+.contact {
+    position: relative;
+    height: 150vh;
+    width: 100%;
+    top: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(./images/bg.png);
+    background-size: 100% 100%;
+    font-family: "Josefin Sans", sans-serif
+}
+
+.contact .question {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background: white;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact .form {
+    position: relative;
+    height: 75%;
+    width: 100%;
+    /* background:lightblue; */
+    top: 90px;
+    color: white;
+}
+
+.contact .input {
+    height: 90px;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 80px;
+
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.contact .input-detail {
+    width: 85%;
+    height: 180px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    position: relative;
+    padding: 18px 40px;
+    background-color: #fff;
+    top: 170px;
+    left: 120px;
+    border: none;
+    color: #999;
+    font-size: 20px;
+}
+
+.contact>h1 {
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-size: 45px;
+}
