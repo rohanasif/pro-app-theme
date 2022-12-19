@@ -730,3 +730,74 @@ nav li:hover {
     font-size: 18px;
     line-height: 32px;
 }
+
+.clients {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    top: 275px;
+}
+
+.clients .div {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    box-shadow: 0px 0px 10px 1px #333333;
+    top: 90px;
+    left: 380px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.clients .div p {
+    text-align: center;
+}
+
+.clients .div h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.clients .div h3 {
+    text-align: center;
+
+}
+
+.clients .div .img {
+    position: relative;
+    height: 12%;
+    width: 7%;
+    background-image: url(./images/img-2.jpg);
+    background-size: 100% 100%;
+    border: 5px solid orangered;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15px;
+    top: 40px;
+    left: 230px
+}
+
+.clients .div .img2 {
+    background-image: url(./images/img-1.jpg);
+    border: 5px solid rgb(60, 59, 59)
+}
+
+.clients .div .img3 {
+    background-image: url(./images/img-3.jpg);
+    border: 5px solid rgb(60, 59, 59)
+}
+
+.clients>h1 {
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-size: 45px;
+}
+
+.clients>p {
+    text-align: center;
+    padding-top: 30px;
+    color: #999;
+    font-size: 18px;
+    line-height: 32px;
+}
