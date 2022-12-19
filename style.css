@@ -336,8 +336,9 @@ nav li:hover {
 .download {
     background-image: linear-gradient(rgba(230, 81, 0, 0.6), rgba(230, 81, 0, 0.6)), url(./images/d-bg.jpg);
     background-size: 100% 100%;
-    width: 100%;
     height: 500px;
+    width: 100%;
+    margin-top: 100px;
 }
 
 .left-div {
@@ -345,7 +346,64 @@ nav li:hover {
     width: 40%;
 }
 
+.left-div>h2 {
+    color: white;
+    padding-left: 100px;
+    padding-top: 130px;
+    font-size: 42px;
+}
+
+.left-div>p {
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
 .right-div {
     float: left;
+    height: 80%;
     width: 40%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.right-div>img {
+    width: 100%;
+}
+
+.stores {
+    position: relative;
+    height: 14vh;
+    width: 100%;
+}
+
+.stores .store {
+    position: relative;
+    height: 100%;
+    width: 16%;
+    background: rgb(44, 43, 43);
+    float: left;
+    left: 350px;
+    margin-left: 10px
+}
+
+.stores .store:hover {
+    background-color: orangered;
+    transition-duration: 1s;
+}
+
+.stores .store h4 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.stores .store h2 {
+    text-align: center;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 15px
 }
